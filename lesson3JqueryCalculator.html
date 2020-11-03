@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jqCalculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <form id="form" name="form"> 
+            <div class="row">
+                <div class="resultscreen">
+                    <div>Calculator</div>
+                    <input type="text" id="line" name="line" value=""/>
+                </div>
+            </div>
+              <div class="row mt-5">
+                  <button class="button" id="result" value="=" onClick="line.value=eval(line.value)"> = </button>
+                  <button class="button" id="c" value="clear">Clear</button>
+              </div>
+            
+            <br><br>
+            <div class="row">
+                <div class="buttons">
+                    <input type="button" name="add" value="+" onClick="calc(add.value)"/>
+                    <input type="button" name="sub" value="-" onClick="calc(sub.value)"/>
+                    <input type="button" name="mul" value="*" onClick="calc(mul.value)"/>
+                    <input type="button" name="div" value="/" onClick="calc(div.value)"/>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="buttons">
+                    <input type="button" name="btn1" value="1" onClick="calc(btn1.value)"/>
+                    <input type="button" name="btn2" value="2" onClick="calc(btn2.value)"/>
+                    <input type="button" name="btn3" value="3" onClick="calc(btn3.value)"/>
+                    <input type="button" name="btn4" value="4" onClick="calc(btn4.value)"/>
+                    <input type="button" name="btn5" value="5" onClick="calc(btn5.value)"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="buttons">
+                    <input type="button" name="btn6" value="6" onClick="calc(btn6.value)"/>
+                    <input type="button" name="btn7" value="7" onClick="calc(btn7.value)"/>
+                    <input type="button" name="btn8" value="8" onClick="calc(btn8.value)"/>
+                    <input type="button" name="btn9" value="9" onClick="calc(btn9.value)"/>
+                    <input type="button" name="btn0" value="0" onClick="calc(btn0.value)"/>
+                </div>
+            </div>
+            <div class="row">
+                    <button id="dark" class="button">Dark or light</button>
+                    <button id="new" class="button">New calculator</button>
+            </div>
+        
+        </form>
+
+    </div>
+
+<script src="js.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>        
+</body>
+</html>

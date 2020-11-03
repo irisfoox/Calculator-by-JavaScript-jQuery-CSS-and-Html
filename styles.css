@@ -1,0 +1,24 @@
+.container{
+    margin-top: 3;
+    /*height: 400px;*/
+    /*width: 300px;*/
+    object-fit: contain;
+    background-color: cadetblue;
+    /*padding-left: 33%;*/
+}
+#result{
+    height: 40px;
+    width:fit-content;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+.dark{
+    background-color: darkslategray;
+}
+.col{
+    height:20px;
+    align-content: center;
+}
+.row{
+    height: 40px;
+}
