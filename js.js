@@ -1,5 +1,4 @@
 function calc(val){
-    //$("#line").value = $("#line").value+val  .resultscreen only works with name
     form.line.value=form.line.value+val
 }
 $("#dark").click(
